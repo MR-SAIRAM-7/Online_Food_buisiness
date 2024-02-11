@@ -165,14 +165,28 @@ li a:hover {
     width: 170px;
 }
 
- .copyright{
-    font-family: 'Bree Serif', 'Serif';
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: white;
-    display: flex;
     height: 20px;
+}
+
+.copyright{
+    font-family: 'Bree Serif', 'Serif';
     font-size: 10px;
-    text-align: center;
+    display: flex;
     justify-content: center;
-    align-items: center;  
+    text-align: center;
+    align-items: center;
+    clear: right;
+    margin-left: 5px;
+}
+
+.credits {
+    font-family: 'Bree Serif', 'Serif';
+    font-size: 10px;
+    margin-right: 5px;
 }
