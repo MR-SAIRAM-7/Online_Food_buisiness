@@ -43,6 +43,8 @@ li a {
 li a:hover {
     color: #ffd700;
     background-color: #4a4747;
+    text-decoration: underline;
+    
 }
 
 .hero {
@@ -172,12 +174,5 @@ li a:hover {
     font-size: 10px;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
-.credit{
-    display: flex;
-    text-align: end;
-    justify-content: flex-end;
-} 
-
