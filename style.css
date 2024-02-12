@@ -87,6 +87,7 @@ li a:hover {
 .button:hover{
  cursor: pointer;
  background-color: rgb(184, 84, 84);
+ transform: scale(1.02);
 }
 
 
