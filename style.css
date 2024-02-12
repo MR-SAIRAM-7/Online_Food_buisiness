@@ -168,10 +168,12 @@ li a:hover {
     display: flex;  
     justify-content: center;
     align-items: center; 
+    
 }
 
 .form{
-    margin-top: 5px;  
+    margin-top: 5px; 
+    color: white; 
 }
 
 
