@@ -48,7 +48,7 @@ li a:hover {
 }
 
 .hero {
-    background: url(/assests/vegetables.jpg);
+    background: url(/assests12/vegetables.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,7 +155,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/assests/contactus.jpg);
+    background: url(/assests12/contactus.jpg);
     background-size: cover;
 }
 

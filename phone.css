@@ -134,3 +134,40 @@
     }
     
 }
+
+@media screen and (max-width:188px){
+    #services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        margin: 10px;
+        border: 2px solid brown;
+        text-align: center;
+        padding: 10px;
+        height: 225px;
+        width: auto;
+        font-family: 'Bree Serif', 'Serif';
+        font-size: 7px;
+        border-radius: 10px;
+       
+    }
+    
+    .box:hover{
+        transition: 0.5s;
+        box-shadow: 5px 5px 5px black;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    .box img {
+        height: 100px;
+        margin: auto;
+    }
+
+    .box:nth-child(2)>img{
+        height: 70px;
+        margin: auto;
+    }
+}
